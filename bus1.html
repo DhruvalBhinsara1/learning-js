@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus 1</title>
+</head>
+
+<body>
+    <script>
+
+        let isAvailable = prompt("Is the seat available");
+
+        if (isAvailable == "yes") {
+
+            let isAadhar = prompt("Do you have the aadhar card");
+            if (isAadhar == "yes") {
+
+                let ageWhat = prompt("What is your age?");
+                if (ageWhat >= 50) {
+                    alert("Seat Allocated")
+                }
+                else {
+                    alert("Seat Not Allocated")
+                }
+            }
+
+            else {
+                alert("Aadhar Card is a mandatory")
+            }
+
+        }
+
+        else {
+            alert("No seat available");
+        }
+
+    </script>
+</body>
+
+</html>

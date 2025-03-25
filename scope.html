@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var globalVar = "I am global"
+
+        console.log(globalVar);
+
+        function test(){
+            let dhruval = 69;
+            console.log(globalVar)
+            return console.log(dhruval);
+        }
+        test();
+
+
+        function myFuction(){
+            var functionVar= "I am function scope"
+
+            console.log(functionVar);
+        }
+
+        myFuction();
+
+        {
+            let blockVar = "I am block scope"
+            console.log(blockVar);   
+        }
+
+        console.log(blockVar);
+    </script>
+</body>
+</html>
