@@ -14,3 +14,9 @@ console.log(cat === horse); //false
 console.log(Object.is(cat, horse));
 //true
 
+
+
+JSON.stringify(cat) === JSON.stringify(dog); //true
+console.log(+0 === -0); //true
+console.log(+0 == -0); //true
+console.log(Object.is(+0, -0)); //false
