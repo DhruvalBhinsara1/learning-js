@@ -23,4 +23,3 @@ console.log(x = Number.NEGATIVE_INFINITY); //output: -Infinity
 console.log(Number.MIN_SAFE_INTEGER) //output: -9007199254740991
 
 console.log(Number.MAX_SAFE_INTEGER) //output: 9007199254740991
-
