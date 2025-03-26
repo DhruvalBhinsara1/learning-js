@@ -64,3 +64,52 @@ console.log(e); //4
 let num = 10 + "20" - 12
 console.log(typeof (num));
 
+console.log(10 + 20 + 30 * 50)
+
+
+b = 4;
+console.log(--b);   //3
+console.log(b--); //3
+console.log(b); //2
+
+
+//Arithmetic operators
+// This kind of operators are used to perform arithmetic operations on numbers.
+
+//following are the types of arithmetic operators:
+
+//1. Addition (+)
+//2. Subtraction (-)
+//3. Multiplication (*)
+//4. Division (/)
+//5. Modulus (%)
+//6. Exponentiation (**) (power)
+
+//Addition 
+let add = 5 + 5;
+console.log(add); //10
+
+//Subtraction
+let sub = 5 - 5;
+console.log(sub); //0
+
+//Multiplication
+let mul = 5 * 5;
+console.log(mul); //25
+
+//Division
+let div = 5 / 5;
+console.log(div); //1
+
+//Modulus
+let mod = 5 % 5;
+console.log(mod); //0
+
+//Exponentiation (power)
+let exp = 5 ** 5;
+console.log(exp); //3125
+
+
+// 5)10(2 <---- this is Quitent
+//   10
+//   0 <---- this is remaineder 
