@@ -28,3 +28,12 @@ fruits.splice(2);
 console.log(fruits); // ["Banana", "Orange"]
 
 //Slice 
+
+
+//slice helps to create a new array from the existing array. It does not change the existing array.
+
+let sli = [1, 2, 3, 4, 5, 6, 7];
+console.log(sli);
+
+let sli2 = sli.slice(2, 5);
+console.log(sli2); // [3, 4, 5]
