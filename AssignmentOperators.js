@@ -1,4 +1,13 @@
 //Assignment Operator
+//type of assignment operator
+
+// =
+// +=
+// -=
+// *=
+// /=
+// %=
+// **=
 
 var a = 5;
 var b = 3;
