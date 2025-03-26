@@ -49,4 +49,24 @@ console.log(n.toPrecision(2));
 console.log(n.toPrecision(4));
 console.log(n.toPrecision(6));
 
+//valueOf() Method
 
+//valueof returns a number as a number;
+//valueof is used to convert Number objects to primitive values
+
+console.log();
+
+let xxx = 666;
+console.log(xxx.valueOf());
+console.log((666).valueOf());
+
+
+//Number() Method
+console.log();
+console.log(Number(true));
+console.log(Number(false));
+let a = (Number("100"));
+console.log(typeof (a), a);
+let g = (Number("Dhruval"));
+console.log(typeof (g), g);
+console.log(Number("10.321"));
