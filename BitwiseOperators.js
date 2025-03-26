@@ -19,9 +19,57 @@
 
 */
 
+//Example1
 
 var a = 8, b = 2;
 console.log('a & b : ' + (a & b));  // “ a & b : 0”
 console.log('a|b : ' + (a | b));        // “a | b : 10”
 console.log('a^b : ' + (a ^ b));     // “ a^ b : 10”
 console.log('~a : ' + (~a));        //”~a : -9”
+
+var c = -50, d = 5;
+
+console.log('~a : ' + (~c));
+
+/*
+
+
+  Bitwise Operator Truth Table
+
+  X   Y   X&Y   X|Y   X^Y   ~X
+  --------------------------------
+  0   0    0     0     0     1
+  0   1    0     1     1     1
+  1   0    0     1     1     0
+  1   1    1     1     0     0
+
+
+  */
+
+//Example2
+var x1 = -48; z1 = 2
+
+console.log('x1 & z1 : ' + (x1 & z1));  // “ x1 & z1 : -32”
+
+console.log('x1 | z1 : ' + (x1 | z1));        // “x1 | z1 : -16”
+
+console.log('x1 ^ z1 : ' + (x1 ^ z1));     // “x1 ^ z1 : -80”
+
+console.log('~x1 : ' + (~x1));        //”~x1 : 47”
+
+
+//Example3
+
+var x2 = 0; z2 = 1;
+
+console.log('x2 & z2 :' + (x2 & z2));  // “ x2 & z2 : 0”
+
+console.log('x2 | z2 :' + (x2 | z2));        // “x2 | z2 : 1”
+
+console.log('x2 ^ z2 :' + (x2 ^ z2));     // “x2 ^ z2 : 1”
+
+console.log('~x2 :' + (~x2));        //”~x2 : -1”
+
+
+
+
