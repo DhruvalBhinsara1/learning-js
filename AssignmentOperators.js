@@ -1,4 +1,9 @@
 //Assignment Operator
+
+//Assignment Operator
+// This operator is showed as "="
+// it gives value of right operand to the left operand.
+
 //type of assignment operator
 
 // =
