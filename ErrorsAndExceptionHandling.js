@@ -50,3 +50,27 @@ try {
 
     console.log("This code will always run.");
 }
+
+//example of try,catch,finally block with multiple exceptions
+
+console.log();
+
+console.log("Try block with multiple exceptions:");
+
+try {
+    let a = 10;
+    let b = 0;
+    let result = a / b;
+    console.log(result);
+} catch (error) {
+
+    console.log("An error occurred: ", error);
+
+} finally {
+    console.log("This code will always run.");
+}
+
+console.log();
+
+console.log("Try block with multiple exceptions (custom exceptions):");
+
