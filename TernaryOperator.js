@@ -12,7 +12,7 @@ var x = 5;
 var result = (x > 5) ? "Greater than 5" : "Less than or equal to 5";
 console.log(result); // Output: "Less than or equal to 5"
 
-//In this example, if the condition (x > 5) is true, the result is "Greater than 5". Otherwise, the result is "Less than or equal to 5".    
+//In this example, if /;othe condition (x > 5) is true, the result is "Greater than 5". Otherwise, the result is "Less than or equal to 5".    
 
 //Note: The ternary operator is generally used for simple if-else conditions. If you need more complex logic, you may want to use an if-else statement instead.
 
