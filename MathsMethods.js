@@ -6,7 +6,6 @@
 
 //Math.property
 
-
 //Methods
 
 //number to integer
