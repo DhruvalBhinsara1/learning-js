@@ -23,3 +23,7 @@ var z = (y > 5) ? (y > 10) ? "Greater than 10" : "Greater than 5" : "Less than o
 console.log(z); // Output: "Greater than 10"
 
 //In this example, the ternary operator is used to check if y is greater than 5 and then to check if it is greater than 10. If both conditions are true, the result is "Greater than 10". Otherwise, the result is "Greater than 5". If y is not greater than 5, the result is "Less than or equal to 5".
+
+let a = typeof (NaN);
+
+console.log(a); // Output: "number".
