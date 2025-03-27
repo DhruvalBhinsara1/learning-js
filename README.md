@@ -7,7 +7,7 @@ I didn’t bother making files for Day One since it is too basic for that.
 You will either need to link this files to your html file or just run them with node.js
 search how to run js file using node js on youtube...
 
-Here’s the full structured list of topics covered in your JavaScript PPT:
+Here’s the full structured list of topics covered in The JavaScript PPT:
 
 ________________________________________
 1. Introduction to JavaScript
