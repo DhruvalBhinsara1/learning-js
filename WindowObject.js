@@ -18,21 +18,6 @@ window.alert("Hello, World!");
 
 alert("Hello, World!");
 
-//Window Size
-
-//The window size is determined by the browser window's dimensions.
-
-//You can get the current window size using the window.innerWidth and window.innerHeight properties.
-
-//window.innerWidth returns the width of the browser window in pixels.
-
-//window.innerHeight returns the height of the browser window in pixels.
-
-//Example:
-
-console.log("Window width: " + window.innerWidth);
-console.log("Window height: " + window.innerHeight);
-
 //Window Methods
 
 //The Different type of Window Methods are:
@@ -131,7 +116,7 @@ var result = window.confirm("Are you sure you want to continue?");
 
 //example:
 
-var userName = window.prompt("Enter your name:", "John Doe");
+var userName = window.prompt("Enter your name:", "Dhruval Bhinsara");
 
 //setTimeout()
 
