@@ -73,4 +73,3 @@ try {
 console.log();
 
 console.log("Try block with multiple exceptions (custom exceptions):");
-
