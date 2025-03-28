@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Wazirxxx</h2>
+    <p>Buy Bitcoin from the given link below..</p>
+    <button onclick="setTimeout(BuyBitcoin, 200);">Buy Now</button>
+    <button onclick="setTimeout(SellBitcoin, 200);">Sell Now</button>
+    <script>
+        let amount_BTC = 0;
+        function BuyBitcoin() {
+
+            amount_BTC += 1;
+            alert('Buying Order was successfull');
+            document.writeln("You have  in your BTC wallet : ", amount_BTC);
+        }
+
+        function SellBitcoin() {
+            amount_BTC -= 1;
+            alert('Selling order was successfull');
+            document.writeln("You have  in your BTC wallet : ", amount_BTC);
+        } 
+    </script>
+</body>
+
+</html>

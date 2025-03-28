@@ -120,3 +120,8 @@ console.log("Current Protocol: " + z);
 
 //window.history.go(-1); //load the previous document
 
+//(4) window.history.length
+
+//the window.history.length property returns the number of documents in the history list.
+
+//window.history.length;
